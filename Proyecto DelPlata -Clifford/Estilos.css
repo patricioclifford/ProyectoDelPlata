@@ -1,0 +1,220 @@
+* {
+    margin: 5px;
+    padding: 1px;
+}
+
+/* Colores */
+
+body{
+    background-color: lightgrey;
+}
+
+/* Header */
+
+header {
+	background: linear-gradient(to right, white, white, #f05053);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: outset white;
+}
+
+
+header nav ul {
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 5px;
+	position: relative;
+	padding: 15px;
+	list-style-type: none;
+	
+}
+nav ul li a {
+    font-family: 'Fugaz One', cursive;
+	color: black;
+    font-size: x-large;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	color: rgb(238, 51, 49);
+}
+
+/* Footer */
+
+.datosdecontacto {
+    background: linear-gradient(to right, white, white, #f05053);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border: outset white;
+	padding: 5px;
+	font-family: 'Fugaz One', cursive;
+	font-size: 20px;
+    position: fixed bottom;
+}
+
+p {
+    color: black;
+}
+
+/* Estilos Index.html */
+
+
+.izquierda {
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-evenly;
+	height: auto;
+	width: 110vh;
+	margin: 5px;
+	padding: 5px;
+	font-family:'Fugaz One', cursive;
+	
+}
+
+.derecha {
+	background-color:lightgray;
+	display: flex;
+	justify-content: space-evenly;
+	height: auto;
+	width: 110vh;
+	margin: 5px;
+	padding: 5px;
+	font-family:'Fugaz One', cursive;
+	
+
+}
+.nuestrascasas {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 5px;
+
+}
+
+/* Estilos Modelos.html */
+
+.modelos {
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+    background-color:lightgray;
+    color: black;
+    font-size: 22px;
+    font-family: 'Fugaz One', cursive;
+    justify-content: center;
+}
+table {
+    display: flex;
+    border: 3px solid;
+    text-align: center;
+   }
+
+th {    
+    background-color:lightgray;
+    color: black;
+    font-size: 32px;
+    font-family: 'Fugaz One', cursive;
+    }
+
+.galeria {
+    display: grid;
+    background-color:lightgray;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+img {
+    transition: all 2s;       
+ }
+
+ .galeria img:hover {
+    height: 110%; width: 110%;
+}    
+
+/* Estilos Promociones.html */
+.promo {
+    background-color:lightgray;
+    
+}
+
+.cajapromos {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    color: Black;
+    font-family: 'Fugaz One', cursive;   
+    
+}
+
+/* Estilo nosotros */
+
+h1 {
+	font-family: 'Fugaz One', cursive;
+	color: black;
+}
+
+h2 {
+	font-family: 'Fugaz One', cursive;
+	color: black;
+	font-size: 22px;
+}
+
+p {
+    font-family: 'Fugaz One', cursive;
+	color: black;
+}
+
+/* Estilos contacto.html */
+
+.formulariocontacto {
+    background-color: lightgray;
+    width: 500px;
+    height: 700px;
+    padding: 25px;
+    margin: 1px;
+    border: 1px outset white;
+    display: block;  
+
+}
+
+.cajadetexto {width: 450px;
+}
+
+.botonenviar{
+    font-size: 20px;
+}
+
+.labels {
+    font-size: 20px;
+    color: black;
+    font-family: 'Fugaz One', cursive;
+}
+
+.mapa {
+    display: block;
+    align-self: auto;
+}
+
+.formulariocontacto {
+	background-color: lightgray;
+	display: flex;
+	justify-content: center;
+	height: auto;
+    width: auto;
+	font-family:'Fugaz One', cursive;
+	
+}
+
+.mapa {
+	background-color:lightgray;
+	display: flex;
+	justify-content: center;
+	font-family:'Fugaz One', cursive;	
+
+}
